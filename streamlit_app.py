@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 from src.supabase_utils import read_from_supabase, get_all_villes, get_quartiers_for_ville
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Immobilier Maroc", page_icon="🏠", layout="wide")
 st.title("🏘️ Tableau de bord immobilier au Maroc")
 
 # --- Sidebar Filtres ---
